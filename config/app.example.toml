@@ -1,0 +1,30 @@
+# Example application config for local STAS integration.
+# Copy this file to config/app.local.toml and adjust paths for the target machine.
+
+[paths]
+aircraft_config_dir = "config/aircraft"
+template_dir = "templates"
+airport_runway_file = "runtime/stas/APTRWY.RWY"
+airport_runway_master_file = "runtime/stas/APTRWY_MASTER.RWY"
+stas_executable_path = "runtime/stas/STAS.exe"
+stas_work_dir = "runtime/stas"
+output_root = "output"
+logo_path = "examples/STAS old/Template/logo.png"
+manual_report_template_dir = "templates/reports/manual_takeoff"
+
+[stas]
+timeout_seconds = 1200
+input_filename = "STASINP"
+output_filename = "STASOUT.out"
+error_filename = "STASERR"
+executable_args = []
+
+[reports]
+word_report_filename = "临时起飞分析.docx"
+pdf_report_filename = "临时起飞分析.pdf"
+manual_word_report_filename = "手册起飞分析.docx"
+manual_pdf_report_filename = "手册起飞分析.pdf"
+queue_word_report_filename = "队列_临时起飞分析.docx"
+queue_pdf_report_filename = "队列_临时起飞分析.pdf"
+queue_manual_word_report_filename = "队列_手册起飞分析.docx"
+queue_manual_pdf_report_filename = "队列_手册起飞分析.pdf"

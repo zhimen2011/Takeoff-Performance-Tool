@@ -1,0 +1,28 @@
+code = "777F"
+display_name = "777F"
+template = "777F.inp"
+default_temperature_range = "65:45:5,40:32:2,28,25:-5:5"
+default_wind_range = "-10,0,10,20"
+default_qnh = "1013.25"
+supports_thrust_options = true
+
+[[thrust_options]]
+label = "正常"
+derated = "0"
+thrust_label = ""
+
+[[thrust_options]]
+label = "减推力10%"
+derated = "10"
+thrust_label = ""
+
+[[thrust_options]]
+label = "减推力20%"
+derated = "20"
+thrust_label = ""
+
+[[thrust_options]]
+label = "1L1BUMP"
+derated = "0"
+thrust_label = "RATING = B1L1BUMP"
+

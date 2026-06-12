@@ -1,0 +1,492 @@
+AIRPORT2
+RKSI  INCHEON INTL        SEOUL/INCHEON,KOR   FMLOLO       23 ICN
+RWYU  90  2.50  60
+'15L'  0  3750   4050   3870   3750   0.00  0.00  0.00 9   2
+7      300  0
+289    32424  0
+315    33110  0
+335    36181  0
+361    36297  0
+436    36529  0
+440    36599  0
+449    36628  0
+472    36647  0
+'*** NO EMERGENCY TURN ***                     Straight on extended RWY centerline.'
+#INT 'K' 750 90  0.00  0.00
+#INT 'D4-C8' 1200 90  0.00  0.00
+RWYU  90  2.50  60
+'15R'  0  3750   4050   3870   3750   0.00  0.00  0.00 7   2
+8      300  0
+10     541  0
+279    33260  0
+312    35308  0
+331    36562  0
+440    36599  0
+472    36647  0
+'*** NO EMERGENCY TURN ***                     Straight on extended RWY centerline.'
+#INT 'K' 750 90  0.00  0.00
+#INT 'B4' 1500 90  0.00  0.00
+#INT 'B5' 1200 90  0.00  0.00
+#INT 'B6' 190 90  0.00  0.00
+#INT 'C10' 1290 90  0.00  0.00
+RWYU  90  2.50  60
+'16L'  0  4000   4300   4120   4000   0.00  0.00  0.00 5   2
+8      301  0
+10     543  0
+18     659  0
+377    20670  0
+548    21725  0
+'*** NO EMERGENCY TURN ***                     Straight on extended RWY centerline.'
+#INT 'V' 686 90  0.00  0.00
+#INT 'U' 991 90  0.00  0.00
+#INT 'N5' 1450 90  0.00  0.00
+#INT 'N4' 1950 90  0.00  0.00
+#INT 'W' 2201 90  0.00  0.00
+#INT 'N6' 190 90  0.00  0.00
+#INT 'P9' 1596 90  0.00  0.00
+RWYU  90  2.50  60
+'16R'  0  3750   4050   3870   3750   0.00  0.00  0.00 5   2
+7      300  0
+8      485  0
+33     1081  0
+377    20670  0
+548    21950  0
+'*** NO EMERGENCY TURN ***                     Straight on extended RWY centerline.'
+#INT 'P12' 195 90  0.00  0.00
+#INT 'V' 436 90  0.00  0.00
+#INT 'U' 741 90  0.00  0.00
+#INT 'P11' 1250 90  0.00  0.00
+#INT 'P10' 1550 90  0.00  0.00
+#INT 'P8' 1850 90  0.00  0.00
+#INT 'P7' 2150 90  0.00  0.00
+#INT 'W' 1875 90  0.00  0.00
+RWYU  90  2.50  60
+'33L'  0  3750   4050   3870   3750   0.00  0.00  0.00 6   2
+7      300  0
+8      479  0
+10     539  0
+11     569  0
+366    6774  0
+407    7535  0
+'*** SEE SPECIAL PROCEDURE FOR THIS RUNWAY ***                     At D5.0 NCN (D7.6 INLL) LEFT turn to 242.'
+#INT 'J' 750 90  0.00  0.00
+#INT 'B2' 1200 90  0.00  0.00
+#INT 'B3' 1500 90  0.00  0.00
+#INT 'B1' 190 90  0.00  0.00
+#INT 'C9' 1230 90  0.00  0.00
+RWYU  90  2.50  60
+'33R'  0  3750   4050   3870   3750   0.00  0.00  0.00 3   2
+7      300  0
+75     1496  0
+366    6774  0
+'*** SEE SPECIAL PROCEDURE FOR THIS RUNWAY ***                     At D5.0 NCN (D7.6 INRR) LEFT turn to 242.'
+#INT 'J' 750 90  0.00  0.00
+#INT 'D1-C1' 1200 90  0.00  0.00
+RWYU  90  2.50  60
+'34L'  0  3750   4050   3870   3750   0.00  0.00  0.00 2   2
+7      300  0
+252    9488  0
+'*** SEE SPECIAL PROCEDURE FOR THIS RUNWAY ***                     At D4.6 WNG (R-277 NCN) LEFT turn to 242.'
+#INT 'P1' 195 90  0.00  0.00
+#INT 'T' 741 90  0.00  0.00
+#INT 'P2' 1250 90  0.00  0.00
+#INT 'P4' 1550 90  0.00  0.00
+#INT 'P5' 1850 90  0.00  0.00
+#INT 'P6' 2150 90  0.00  0.00
+#INT 'W' 1875 90  0.00  0.00
+RWYU  90  2.50  60
+'34R'  0  4000   4300   4120   4000   0.00  0.00  0.00 3   2
+8      301  0
+13     329  0
+255    9713  0
+'*** SEE SPECIAL PROCEDURE FOR THIS RUNWAY ***                     At D4.6 WNG (R-281 NCN) LEFT turn to 242.'
+#INT 'T' 741 90  0.00  0.00
+#INT 'N2' 1450 90  0.00  0.00
+#INT 'N3-W' 1951 90  0.00  0.00
+#INT 'N1' 190 90  0.00  0.00
+#INT 'P3' 1214 90  0.00  0.00
+
+RWYU 90 2.50 60
+'K-15L'  0  3000  3300  3120  3750  0.00  0.00  0.00  9  2
+7      300  0
+289    32424  0
+315    33110  0
+335    36181  0
+361    36297  0
+436    36529  0
+440    36599  0
+449    36628  0
+472    36647  0
+'*** NO EMERGENCY TURN ***                     Straight on extended RWY centerline.'
+#INT 'K' 750 90  0.00  0.00
+RWYU 90 2.50 60
+'D4-15L'  0  2550  2850  2670  3750  0.00  0.00  0.00  9  2
+7      300  0
+289    32424  0
+315    33110  0
+335    36181  0
+361    36297  0
+436    36529  0
+440    36599  0
+449    36628  0
+472    36647  0
+'*** NO EMERGENCY TURN ***                     Straight on extended RWY centerline.'
+#INT 'D4-C8' 1200 90  0.00  0.00
+RWYU 90 2.50 60
+'C8-15L'  0  2550  2850  2670  3750  0.00  0.00  0.00  9  2
+7      300  0
+289    32424  0
+315    33110  0
+335    36181  0
+361    36297  0
+436    36529  0
+440    36599  0
+449    36628  0
+472    36647  0
+'*** NO EMERGENCY TURN ***                     Straight on extended RWY centerline.'
+#INT 'D4-C8' 1200 90  0.00  0.00
+RWYU 90 2.50 60
+'K-15R'  0  3000  3300  3120  3750  0.00  0.00  0.00  7  2
+8      300  0
+10     541  0
+279    33260  0
+312    35308  0
+331    36562  0
+440    36599  0
+472    36647  0
+'*** NO EMERGENCY TURN ***                     Straight on extended RWY centerline.'
+#INT 'K' 750 90  0.00  0.00
+RWYU 90 2.50 60
+'B4-15R'  0  2250  2550  2370  3750  0.00  0.00  0.00  7  2
+8      300  0
+10     541  0
+279    33260  0
+312    35308  0
+331    36562  0
+440    36599  0
+472    36647  0
+'*** NO EMERGENCY TURN ***                     Straight on extended RWY centerline.'
+#INT 'B4' 1500 90  0.00  0.00
+RWYU 90 2.50 60
+'B5-15R'  0  2550  2850  2670  3750  0.00  0.00  0.00  7  2
+8      300  0
+10     541  0
+279    33260  0
+312    35308  0
+331    36562  0
+440    36599  0
+472    36647  0
+'*** NO EMERGENCY TURN ***                     Straight on extended RWY centerline.'
+#INT 'B5' 1200 90  0.00  0.00
+RWYU 90 2.50 60
+'B6-15R'  0  3560  3860  3680  3750  0.00  0.00  0.00  7  2
+8      300  0
+10     541  0
+279    33260  0
+312    35308  0
+331    36562  0
+440    36599  0
+472    36647  0
+'*** NO EMERGENCY TURN ***                     Straight on extended RWY centerline.'
+#INT 'B6' 190 90  0.00  0.00
+RWYU 90 2.50 60
+'C10-15R'  0  2460  2760  2580  3750  0.00  0.00  0.00  7  2
+8      300  0
+10     541  0
+279    33260  0
+312    35308  0
+331    36562  0
+440    36599  0
+472    36647  0
+'*** NO EMERGENCY TURN ***                     Straight on extended RWY centerline.'
+#INT 'C10' 1290 90  0.00  0.00
+RWYU 90 2.50 60
+'V-16L'  0  3314  3614  3434  4000  0.00  0.00  0.00  5  2
+8      301  0
+10     543  0
+18     659  0
+377    20670  0
+548    21725  0
+'*** NO EMERGENCY TURN ***                     Straight on extended RWY centerline.'
+#INT 'V' 686 90  0.00  0.00
+RWYU 90 2.50 60
+'U-16L'  0  3009  3309  3129  4000  0.00  0.00  0.00  5  2
+8      301  0
+10     543  0
+18     659  0
+377    20670  0
+548    21725  0
+'*** NO EMERGENCY TURN ***                     Straight on extended RWY centerline.'
+#INT 'U' 991 90  0.00  0.00
+RWYU 90 2.50 60
+'N5-16L'  0  2550  2850  2670  4000  0.00  0.00  0.00  5  2
+8      301  0
+10     543  0
+18     659  0
+377    20670  0
+548    21725  0
+'*** NO EMERGENCY TURN ***                     Straight on extended RWY centerline.'
+#INT 'N5' 1450 90  0.00  0.00
+RWYU 90 2.50 60
+'N4-16L'  0  2050  2350  2170  4000  0.00  0.00  0.00  5  2
+8      301  0
+10     543  0
+18     659  0
+377    20670  0
+548    21725  0
+'*** NO EMERGENCY TURN ***                     Straight on extended RWY centerline.'
+#INT 'N4' 1950 90  0.00  0.00
+RWYU 90 2.50 60
+'W-16L'  0  1799  2099  1919  4000  0.00  0.00  0.00  5  2
+8      301  0
+10     543  0
+18     659  0
+377    20670  0
+548    21725  0
+'*** NO EMERGENCY TURN ***                     Straight on extended RWY centerline.'
+#INT 'W' 2201 90  0.00  0.00
+RWYU 90 2.50 60
+'N6-16L'  0  3810  4110  3930  4000  0.00  0.00  0.00  5  2
+8      301  0
+10     543  0
+18     659  0
+377    20670  0
+548    21725  0
+'*** NO EMERGENCY TURN ***                     Straight on extended RWY centerline.'
+#INT 'N6' 190 90  0.00  0.00
+RWYU 90 2.50 60
+'P9-16L'  0  2404  2704  2524  4000  0.00  0.00  0.00  5  2
+8      301  0
+10     543  0
+18     659  0
+377    20670  0
+548    21725  0
+'*** NO EMERGENCY TURN ***                     Straight on extended RWY centerline.'
+#INT 'P9' 1596 90  0.00  0.00
+RWYU 90 2.50 60
+'P12-16R'  0  3555  3855  3675  3750  0.00  0.00  0.00  5  2
+7      300  0
+8      485  0
+33     1081  0
+377    20670  0
+548    21950  0
+'*** NO EMERGENCY TURN ***                     Straight on extended RWY centerline.'
+#INT 'P12' 195 90  0.00  0.00
+RWYU 90 2.50 60
+'V-16R'  0  3314  3614  3434  3750  0.00  0.00  0.00  5  2
+7      300  0
+8      485  0
+33     1081  0
+377    20670  0
+548    21950  0
+'*** NO EMERGENCY TURN ***                     Straight on extended RWY centerline.'
+#INT 'V' 436 90  0.00  0.00
+RWYU 90 2.50 60
+'U-16R'  0  3009  3309  3129  3750  0.00  0.00  0.00  5  2
+7      300  0
+8      485  0
+33     1081  0
+377    20670  0
+548    21950  0
+'*** NO EMERGENCY TURN ***                     Straight on extended RWY centerline.'
+#INT 'U' 741 90  0.00  0.00
+RWYU 90 2.50 60
+'P11-16R'  0  2500  2800  2620  3750  0.00  0.00  0.00  5  2
+7      300  0
+8      485  0
+33     1081  0
+377    20670  0
+548    21950  0
+'*** NO EMERGENCY TURN ***                     Straight on extended RWY centerline.'
+#INT 'P11' 1250 90  0.00  0.00
+RWYU 90 2.50 60
+'P10-16R'  0  2200  2500  2320  3750  0.00  0.00  0.00  5  2
+7      300  0
+8      485  0
+33     1081  0
+377    20670  0
+548    21950  0
+'*** NO EMERGENCY TURN ***                     Straight on extended RWY centerline.'
+#INT 'P10' 1550 90  0.00  0.00
+RWYU 90 2.50 60
+'P8-16R'  0  1900  2200  2020  3750  0.00  0.00  0.00  5  2
+7      300  0
+8      485  0
+33     1081  0
+377    20670  0
+548    21950  0
+'*** NO EMERGENCY TURN ***                     Straight on extended RWY centerline.'
+#INT 'P8' 1850 90  0.00  0.00
+RWYU 90 2.50 60
+'P7-16R'  0  1600  1900  1720  3750  0.00  0.00  0.00  5  2
+7      300  0
+8      485  0
+33     1081  0
+377    20670  0
+548    21950  0
+'*** NO EMERGENCY TURN ***                     Straight on extended RWY centerline.'
+#INT 'P7' 2150 90  0.00  0.00
+RWYU 90 2.50 60
+'W-16R'  0  1875  2175  1995  3750  0.00  0.00  0.00  5  2
+7      300  0
+8      485  0
+33     1081  0
+377    20670  0
+548    21950  0
+'*** NO EMERGENCY TURN ***                     Straight on extended RWY centerline.'
+#INT 'W' 1875 90  0.00  0.00
+RWYU 90 2.50 60
+'J-33L'  0  3000  3300  3120  3750  0.00  0.00  0.00  6  2
+7      300  0
+8      479  0
+10     539  0
+11     569  0
+366    6774  0
+407    7535  0
+'*** SEE SPECIAL PROCEDURE FOR THIS RUNWAY ***                     At D5.0 NCN (D7.6 INLL) LEFT turn to 242.'
+#INT 'J' 750 90  0.00  0.00
+RWYU 90 2.50 60
+'B2-33L'  0  2550  2850  2670  3750  0.00  0.00  0.00  6  2
+7      300  0
+8      479  0
+10     539  0
+11     569  0
+366    6774  0
+407    7535  0
+'*** SEE SPECIAL PROCEDURE FOR THIS RUNWAY ***                     At D5.0 NCN (D7.6 INLL) LEFT turn to 242.'
+#INT 'B2' 1200 90  0.00  0.00
+RWYU 90 2.50 60
+'B3-33L'  0  2250  2550  2370  3750  0.00  0.00  0.00  6  2
+7      300  0
+8      479  0
+10     539  0
+11     569  0
+366    6774  0
+407    7535  0
+'*** SEE SPECIAL PROCEDURE FOR THIS RUNWAY ***                     At D5.0 NCN (D7.6 INLL) LEFT turn to 242.'
+#INT 'B3' 1500 90  0.00  0.00
+RWYU 90 2.50 60
+'B1-33L'  0  3560  3860  3680  3750  0.00  0.00  0.00  6  2
+7      300  0
+8      479  0
+10     539  0
+11     569  0
+366    6774  0
+407    7535  0
+'*** SEE SPECIAL PROCEDURE FOR THIS RUNWAY ***                     At D5.0 NCN (D7.6 INLL) LEFT turn to 242.'
+#INT 'B1' 190 90  0.00  0.00
+RWYU 90 2.50 60
+'C9-33L'  0  2520  2820  2640  3750  0.00  0.00  0.00  6  2
+7      300  0
+8      479  0
+10     539  0
+11     569  0
+366    6774  0
+407    7535  0
+'*** SEE SPECIAL PROCEDURE FOR THIS RUNWAY ***                     At D5.0 NCN (D7.6 INLL) LEFT turn to 242.'
+#INT 'C9' 1230 90  0.00  0.00
+RWYU 90 2.50 60
+'J-33R'  0  3000  3300  3120  3750  0.00  0.00  0.00  3  2
+7      300  0
+75     1496  0
+366    6774  0
+'*** SEE SPECIAL PROCEDURE FOR THIS RUNWAY ***                     At D5.0 NCN (D7.6 INRR) LEFT turn to 242.'
+#INT 'J' 750 90  0.00  0.00
+RWYU 90 2.50 60
+'D1-33R'  0  2550  2850  2670  3750  0.00  0.00  0.00  3  2
+7      300  0
+75     1496  0
+366    6774  0
+'*** SEE SPECIAL PROCEDURE FOR THIS RUNWAY ***                     At D5.0 NCN (D7.6 INRR) LEFT turn to 242.'
+#INT 'D1-C1' 1200 90  0.00  0.00
+RWYU 90 2.50 60
+'C1-33R'  0  2550  2850  2670  3750  0.00  0.00  0.00  3  2
+7      300  0
+75     1496  0
+366    6774  0
+'*** SEE SPECIAL PROCEDURE FOR THIS RUNWAY ***                     At D5.0 NCN (D7.6 INRR) LEFT turn to 242.'
+#INT 'D1-C1' 1200 90  0.00  0.00
+RWYU 90 2.50 60
+'P1-34L'  0  3555  3855  3675  3750  0.00  0.00  0.00  2  2
+7      300  0
+252    9488  0
+'*** SEE SPECIAL PROCEDURE FOR THIS RUNWAY ***                     At D4.6 WNG (R-277 NCN) LEFT turn to 242.'
+#INT 'P1' 195 90  0.00  0.00
+RWYU 90 2.50 60
+'T-34L'  0  3009  3309  3129  3750  0.00  0.00  0.00  2  2
+7      300  0
+252    9488  0
+'*** SEE SPECIAL PROCEDURE FOR THIS RUNWAY ***                     At D4.6 WNG (R-277 NCN) LEFT turn to 242.'
+#INT 'T' 741 90  0.00  0.00
+RWYU 90 2.50 60
+'P2-34L'  0  2500  2800  2620  3750  0.00  0.00  0.00  2  2
+7      300  0
+252    9488  0
+'*** SEE SPECIAL PROCEDURE FOR THIS RUNWAY ***                     At D4.6 WNG (R-277 NCN) LEFT turn to 242.'
+#INT 'P2' 1250 90  0.00  0.00
+RWYU 90 2.50 60
+'P4-34L'  0  2200  2500  2320  3750  0.00  0.00  0.00  2  2
+7      300  0
+252    9488  0
+'*** SEE SPECIAL PROCEDURE FOR THIS RUNWAY ***                     At D4.6 WNG (R-277 NCN) LEFT turn to 242.'
+#INT 'P4' 1550 90  0.00  0.00
+RWYU 90 2.50 60
+'P5-34L'  0  1900  2200  2020  3750  0.00  0.00  0.00  2  2
+7      300  0
+252    9488  0
+'*** SEE SPECIAL PROCEDURE FOR THIS RUNWAY ***                     At D4.6 WNG (R-277 NCN) LEFT turn to 242.'
+#INT 'P5' 1850 90  0.00  0.00
+RWYU 90 2.50 60
+'P6-34L'  0  1600  1900  1720  3750  0.00  0.00  0.00  2  2
+7      300  0
+252    9488  0
+'*** SEE SPECIAL PROCEDURE FOR THIS RUNWAY ***                     At D4.6 WNG (R-277 NCN) LEFT turn to 242.'
+#INT 'P6' 2150 90  0.00  0.00
+RWYU 90 2.50 60
+'W-34L'  0  1875  2175  1995  3750  0.00  0.00  0.00  2  2
+7      300  0
+252    9488  0
+'*** SEE SPECIAL PROCEDURE FOR THIS RUNWAY ***                     At D4.6 WNG (R-277 NCN) LEFT turn to 242.'
+#INT 'W' 1875 90  0.00  0.00
+RWYU 90 2.50 60
+'T-34R'  0  3259  3559  3379  4000  0.00  0.00  0.00  3  2
+8      301  0
+13     329  0
+255    9713  0
+'*** SEE SPECIAL PROCEDURE FOR THIS RUNWAY ***                     At D4.6 WNG (R-281 NCN) LEFT turn to 242.'
+#INT 'T' 741 90  0.00  0.00
+RWYU 90 2.50 60
+'N2-34R'  0  2550  2850  2670  4000  0.00  0.00  0.00  3  2
+8      301  0
+13     329  0
+255    9713  0
+'*** SEE SPECIAL PROCEDURE FOR THIS RUNWAY ***                     At D4.6 WNG (R-281 NCN) LEFT turn to 242.'
+#INT 'N2' 1450 90  0.00  0.00
+RWYU 90 2.50 60
+'N3-34R'  0  2049  2349  2169  4000  0.00  0.00  0.00  3  2
+8      301  0
+13     329  0
+255    9713  0
+'*** SEE SPECIAL PROCEDURE FOR THIS RUNWAY ***                     At D4.6 WNG (R-281 NCN) LEFT turn to 242.'
+#INT 'N3-W' 1951 90  0.00  0.00
+RWYU 90 2.50 60
+'W-34R'  0  2049  2349  2169  4000  0.00  0.00  0.00  3  2
+8      301  0
+13     329  0
+255    9713  0
+'*** SEE SPECIAL PROCEDURE FOR THIS RUNWAY ***                     At D4.6 WNG (R-281 NCN) LEFT turn to 242.'
+#INT 'N3-W' 1951 90  0.00  0.00
+RWYU 90 2.50 60
+'N1-34R'  0  3810  4110  3930  4000  0.00  0.00  0.00  3  2
+8      301  0
+13     329  0
+255    9713  0
+'*** SEE SPECIAL PROCEDURE FOR THIS RUNWAY ***                     At D4.6 WNG (R-281 NCN) LEFT turn to 242.'
+#INT 'N1' 190 90  0.00  0.00
+RWYU 90 2.50 60
+'P3-34R'  0  2786  3086  2906  4000  0.00  0.00  0.00  3  2
+8      301  0
+13     329  0
+255    9713  0
+'*** SEE SPECIAL PROCEDURE FOR THIS RUNWAY ***                     At D4.6 WNG (R-281 NCN) LEFT turn to 242.'
+#INT 'P3' 1214 90  0.00  0.00

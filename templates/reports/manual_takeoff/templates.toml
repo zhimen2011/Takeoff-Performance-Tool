@@ -1,0 +1,27 @@
+[[templates]]
+id = "738_normal"
+label = "738 正常"
+filename = "738_normal.docx"
+aircraft_codes = ["738", "737-800", "737800", "737-800W", "B738"]
+thrust_options = ["", "正常", "NORMAL"]
+
+[[templates]]
+id = "777f_normal"
+label = "777F 正常"
+filename = "777f_normal.docx"
+aircraft_codes = ["777F", "777", "B777F"]
+thrust_options = ["", "正常", "NORMAL"]
+
+[[templates]]
+id = "777f_derate"
+label = "777F 减推力"
+filename = "777f_derate.docx"
+aircraft_codes = ["777F", "777", "B777F"]
+thrust_options = ["减推力10%", "减推力20%", "DERATE_10", "DERATE_20"]
+
+[[templates]]
+id = "777f_bump"
+label = "777F BUMP"
+filename = "777f_bump.docx"
+aircraft_codes = ["777F", "777", "B777F"]
+thrust_options = ["1L1BUMP"]

@@ -1,0 +1,55 @@
+ACMDBI d03285; ACTYPE 737-800; ENGTYP CFM56-7B26; CERTIF FAA-SCAP
+REVNBR S032; BRAKES CAT_N; MMID BTM
+OPTIONS
+POPT
+   {calculation_option}         0         9.E20     9.E20      5
+   9.E20     {improved_climb_option}         0         9.E20      9.E20
+   1         30        45        {runway_condition}          {contamination_depth}
+   9.E20     9.E20     0         400        0
+   15        9.E20     9.E20     79015      {derated}
+   5         0         0         9.E20      0
+   9.E20     9.E20     9.E20     9.E20      9.E20
+   9.E20     9.E20     9.E20     9.E20      9.E20
+   9.E20     9.E20     9.E20     9.E20      9.E20  /
+CONF
+   1         9.E20     {flap_setting}         {bleed_status}          {anti_icing}
+   1         0         1         0          9.E20
+   0         0         9.E20     9.E20      0
+   225       9.E20     9.E20     9.E20      0
+   9.E20     9.E20     9.E20     0          0
+   9.E20     9.E20     9.E20     9.E20      9.E20
+   9.E20     9.E20     9.E20     9.E20      9.E20  /
+H------------------------------------------------------
+WTUNIT KG
+TMPUNT C
+ALTUNT F
+DISTU M
+DEPTHU MM
+DERATE TYPE Percent
+DESCRIBE ${qnh_ref_description}$
+QNHREF = {qnh_ref}
+UNIT(6) 0
+LINES PER PAGE 58
+INPUTS NOECHO
+DO NOT FILTER MESSAGES
+OUTPUT OPTION VARIABLE
+POPT(024) {comparison_weight_kg},{takeoff_weight_kg}
+XMET(006) {actual_temperature_c}
+XMET(001) {xmet001_temperature_c}
+XMET(002) {wind_kt}
+OUTPUT CLIMIT(001)
+OUTPUT CLIMIT(044)
+OUTPUT CLIMIT(019)
+OUTPUT CLIMIT(006)
+OUTPUT CLIMIT(005)
+OUTPUT CLIMIT(028)
+OUTPUT SPOUTA(032)
+OUTPUT SPOUTA(005)
+OUTPUT ACCSEG(002)
+OUTPUT CLIMIT(022)
+OUTPUT CLIMIT(023)
+OUTPUT CLIMIT(024)
+OUTPUT CLIMIT(026)
+AIRPORT FILE {airport_file}
+LOAD RUNWAY {airport_runway}
+CALCULATE

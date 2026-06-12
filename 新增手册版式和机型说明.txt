@@ -1,0 +1,123 @@
+新增手册模板基本不用改代码；新增机型通常要加配置和 STAS 输入模板，但如果是全新机型，还可能需要补代码里的防冰/引气/推力映射。
+
+  一、新增机型怎么处理
+
+  最少需要准备两个文件：
+
+  config/aircraft/新机型.toml
+  templates/新机型.inp
+
+  例如：
+
+  code = "767F"
+  display_name = "767F"
+  template = "767F.inp"
+  default_temperature_range = "65:45:5,40:32:2,28,25:-5:5"
+  default_wind_range = "-10,0,10,20"
+  default_qnh = "1013.25"
+  supports_thrust_options = true
+
+  [[thrust_options]]
+  label = "正常"
+  derated = "0"
+  thrust_label = ""
+
+  [[thrust_options]]
+  label = "减推力10%"
+  derated = "10"
+  thrust_label = ""
+
+  templates/新机型.inp 是给 STAS 用的输入模板，建议从最接近的现有模板复制，比如 templates/738.inp 或 templates/777F.inp，再替换机型数据
+  库、发动机、认证、POPT/CONF 等 STAS 参数。
+
+  模板里可以使用这些占位符：
+
+  {airport_file}
+  {airport_runway}
+  {runway_condition}
+  {contamination_depth}
+  {bleed_status}
+  {anti_icing}
+  {temperature_range}
+  {wind_range}
+  {qnh_ref}
+  {qnh_ref_description}
+  {derated}
+  {derate_value}
+  {thrust_label}
+
+  注意：新增机型还要确认 runtime/stas/ 里有对应 STAS 数据库文件，例如 .db1、.db2、相关性能包。否则程序模板写对了，STAS 本身也可能算不出
+  来。
+
+  当前项目已经会自动读取 config/aircraft/*.toml，所以机型下拉框理论上会自动出现新机型。但现在代码里仍有一些 738 / 777F 专用映射：防冰、
+  引气、推力选项、默认手册模板推荐。如果新机型不是直接沿用 738 或 777F 逻辑，正式支持时还需要补这些位置：
+
+  src/stas_app/services/scenario_options.py
+  src/stas_app/ui/forms.py
+  src/stas_app/ui/desktop_app.py
+  tests/test_aircraft_registry.py
+  tests/test_input_builder.py
+
+  简单理解：配置文件负责“这个机型叫什么、用哪个模板”；代码映射负责“界面选的防冰/引气/推力，写成 STAS 哪个数字”。
+
+  二、新增手册模板怎么处理
+
+  手册模板文件放这里：
+
+  templates/reports/manual_takeoff/
+
+  然后登记到：
+
+  templates/reports/manual_takeoff/templates.toml
+
+  例如新增一个 767F 正常模板：
+
+  [[templates]]
+  id = "767f_normal"
+  label = "767F 正常"
+  filename = "767f_normal.docx"
+  aircraft_codes = ["767F", "B767F"]
+  thrust_options = ["", "正常", "NORMAL"]
+
+  字段含义：
+
+  id              内部唯一编号，不能重复
+  label           界面下拉框显示名称
+  filename        对应的 Word 模板文件名
+  aircraft_codes  允许使用这个模板的机型
+  thrust_options  允许使用这个模板的推力选项
+
+  手册模板 .docx 主要控制：
+
+  页眉
+  页脚
+  logo
+  页边距
+  纸张方向
+  页面大小
+  页码样式
+
+  但手册正文不是直接保留模板正文。程序会读取模板，保留页眉页脚和页面设置，然后清空正文，再把 STAS 输出写进去。所以如果只是换页眉、
+  logo、页边距，直接改 .docx 就行；如果要改正文行距、字号、分页、高亮规则，那就不是模板能完全解决的，需要改导出代码。
+
+  相关说明文档已经在：
+
+  docs/手册起飞分析版式维护.md
+
+  三、临时起飞分析模板
+
+  临时格式不是用 templates.toml 管理，主要看这两个文件：
+
+  templates/reports/manual_takeoff/temporary_default.docx
+  templates/reports/manual_takeoff/temporary_templates.toml
+
+  如果只是调整临时报告页眉、logo、页边距，优先改 temporary_default.docx。
+
+  建议操作顺序
+
+  1. 新增机型：先复制一个接近的 .toml 和 .inp。
+  2. 确认 STAS 数据库文件齐全。
+  3. 先用命令行跑一次新机型计算。
+  4. 再加对应手册 .docx。
+  5. 在 templates.toml 注册手册模板。
+  6. 最后用桌面界面生成 Word/PDF 人工检查版式。

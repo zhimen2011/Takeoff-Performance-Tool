@@ -1,0 +1,671 @@
+AIRPORT2
+EDDH  HAMBURG             HAMBURG,DEU         FMLOLO       53 HAM
+RWYU  90  2.50  46
+'05'  0  3250   3310   3250   2952   0.08  0.08  0.08 12  0
+4      146  0
+15     325  0
+21     349  0
+34     423  0
+56     513  0
+59     548  0
+80     1044  0
+90     1076  0
+96     1213  0
+111    1417  0
+116    1609  0
+682    35938  0
+'*** NO EMERGENCY TURN ***                                                                                            12 MAY 2026'
+H Straight on extended RWY centerline.
+#INT 'D3' 795 90  0.08  0.08
+#INT 'D4' 1170 90  0.08  0.08
+#INT 'D6' 1655 90  0.08  0.08
+#INT 'D7' 1795 90  0.08  0.08
+RWYU  90  2.50  46
+'15'  0  3220   3280   3220   3666  -0.17 -0.17 -0.17 12  0
+26     599  0
+44     721  0
+52     813  0
+65     1026  0
+71     1027  0
+79     1138  0
+81     1177  0
+93     1311  0
+99     1398  0
+194    2692  0
+226    3292  0
+267    12588  0
+'*** NO EMERGENCY TURN ***                                                                                            12 MAY 2026'
+H Straight on extended RWY centerline.
+#INT 'E3' 1126 90 -0.17 -0.17
+#INT 'E4' 1896 90 -0.17 -0.17
+RWYU  90  2.50  46
+'23'  0  3250   3310   3250   3094  -0.08 -0.08 -0.08 12  0
+3      131  0
+39     529  0
+59     543  0
+65     708  0
+78     976  0
+80     1132  0
+99     1326  0
+107    1826  0
+125    2281  0
+218    4887  0
+344    5119  0
+587    41283  0
+'*** NO EMERGENCY TURN ***                                                                                            12 MAY 2026'
+H Straight on extended RWY centerline.
+#INT 'A4' 157 90 -0.08 -0.08
+#INT 'A3' 112 90 -0.08 -0.08
+#INT 'A6' 600 90 -0.08 -0.08
+#INT 'D8' 990 90 -0.08 -0.08
+#INT 'D6' 1575 90 -0.08 -0.08
+RWYU  90  2.50  46
+'33'  0  3666   3726   3666   3220   0.12  0.12  0.12 12  0
+15     350  0
+26     429  0
+29     437  0
+36     490  0
+39     522  0
+45     649  0
+50     666  0
+62     948  0
+77     1205  0
+87     1313  0
+95     1725  0
+623    32238  0
+'*** NO EMERGENCY TURN ***                                                                                            12 MAY 2026'
+H Straight on extended RWY centerline.
+#INT 'G' 201 90  0.12  0.12
+#INT 'B5' 412 90  0.12  0.12
+#INT 'D1' 776 90  0.12  0.12
+#INT 'A6' 936 90  0.12  0.12
+#INT 'E4' 1756 90  0.12  0.12
+#INT 'D9' 931 90  0.12  0.12
+#INT 'THR' 446 90  0.12  0.12
+#INT 'B6' 786 90  0.12  0.12
+#INT 'B4' 346 90  0.12  0.12
+
+
+
+
+
+
+AIRPORT2
+EGKK  GATWICK             LONDON,GBR          FMLOLO      203 LGW
+RWYU   0  2.50  45
+'08L'  0  2561   3040   2561   2241  -0.04 -0.04 -0.04 2   2
+38     902  0
+83     1024  0
+'*** NO EMERGENCY TURN ***                                                                                            12 MAY 2026'
+H Straight on extended RWY centerline.
+RWYU   0  2.50  45
+'08R'  0  3159   3311   3233   2765  -0.07 -0.07 -0.07 12  2
+3      186  0
+10     332  0
+18     366  0
+27     464  0
+31     465  0
+42     703  0
+56     707  0
+57     721  0
+58     722  0
+59     745  0
+61     745  0
+65     777  0
+'*** NO EMERGENCY TURN ***                                                                                            12 MAY 2026'
+H Straight on extended RWY centerline.
+#INT 'H1' 222 90 -0.07 -0.07
+#INT 'G1' 387 90 -0.07 -0.07
+RWYU   0  2.50  45
+'26L'  0  3255   3399   3317   2830   0.05  0.05  0.05 12  2
+3      154  0
+10     245  0
+15     256  0
+89     1299  0
+109    1455  0
+163    2128  0
+175    2234  0
+231    3180  0
+278    3992  0
+304    33464  0
+580    34431  0
+622    52857  0
+'*** NO EMERGENCY TURN ***                                                                                            12 MAY 2026'
+H Straight on extended RWY centerline.
+#INT 'A1' 109 90  0.05  0.05
+#INT 'C1' 795 90  0.05  0.05
+#INT 'B1' 364 90  0.05  0.05
+RWYU   0  2.50  45
+'26R'  0  2515   2657   2515   2146   0.04  0.04  0.04 12  2
+30     162  0
+40     165  0
+76     861  0
+89     884  0
+114    1419  0
+117    1444  0
+200    2134  0
+206    2238  0
+231    2602  0
+271    3789  0
+559    34584  0
+627    52821  0
+'*** NO EMERGENCY TURN ***                                                                                            12 MAY 2026'
+H Straight on extended RWY centerline.
+
+
+
+
+
+
+AIRPORT2
+EGNX  EAST MIDLANDS       EAST MIDLANDS,GBR   FMLOLO      306 EMA
+RWYU  90  2.50  45
+'09'  0  2894   3205   2924   2714  -0.26 -0.26 -0.26 12  0
+3      314  0
+4      330  0
+6      353  0
+8      355  0
+11     367  0
+18     493  0
+244    29032  0
+283    33725  0
+293    33804  0
+296    34015  0
+300    34038  0
+303    34112  0
+'*** NO EMERGENCY TURN ***                                                                                            12 MAY 2026'
+H Straight on extended RWY centerline.
+#INT 'H1' 180 90 -0.26 -0.26
+#INT 'M1' 814 90 -0.26 -0.26
+#INT 'S1' 1577 90 -0.26 -0.26
+RWYU  90  2.50  45
+'27'  0  2894   3353   2924   2764   0.26  0.26  0.26 12  0
+7      461  0
+16     462  0
+17     496  0
+19     528  0
+21     547  0
+24     568  0
+28     655  0
+30     688  0
+32     720  0
+43     837  0
+50     974  0
+92     1923  0
+'*** NO EMERGENCY TURN ***                                                                                            12 MAY 2026'
+H Straight on extended RWY centerline.
+#INT 'W1' 429 90  0.26  0.26
+#INT 'S1' 1284 90  0.26  0.26
+#INT 'M1' 2057 90  0.26  0.26
+
+RWYU 90 2.50 45
+'H1-09'  0  2714   3025   2744   2714   -0.26  -0.26  -0.26 12   0
+3      314  0
+4      330  0
+6      353  0
+8      355  0
+11     367  0
+18     493  0
+244    29032  0
+283    33725  0
+293    33804  0
+296    34015  0
+300    34038  0
+303    34112  0
+'*** NO EMERGENCY TURN ***                                                                                            12 MAY 2026'
+H Straight on extended RWY centerline.
+#INT 'H1' 180 90 -0.26 -0.26
+#INT 'M1' 814 90 -0.26 -0.26
+#INT 'S1' 1577 90 -0.26 -0.26
+
+
+
+
+
+
+
+AIRPORT2
+EHAM  SCHIPHOL            AMSTERDAM,NLD       FMLOLO      -11 AMS
+RWYU 180  2.50  45
+'06'  0  3439   3499   3439   3195  -0.01 -0.01 -0.01 2   2
+350    7447  0
+356    7594  0
+'*** NO EMERGENCY TURN ***                                                                                            11 MAY 2026'
+H Straight on extended RWY centerline.
+#INT 'S1-S10' 843 90 -0.01 -0.01
+RWYU  90  2.50  45
+'09'  0  3434   3494   3434   3363   0.00  0.00  0.00 12  2
+5      176  0
+11     234  0
+13     323  0
+15     349  0
+17     384  0
+19     418  0
+43     682  0
+55     973  0
+77     1243  0
+79     1462  0
+110    1687  0
+717    37221  0
+'*** NO EMERGENCY TURN ***                                                                                            11 MAY 2026'
+H Straight on extended RWY centerline.
+#INT 'N3' 1553 90  0.00  0.00
+#INT 'N4' 1034 90  0.00  0.00
+RWYU  90  2.50  45
+'18C'  0  3271   3331   3271   3300   0.00  0.00  0.00 8   0
+4      152  0
+9      181  0
+19     517  0
+27     557  0
+33     582  0
+40     659  0
+51     835  0
+73     1054  0
+'*** NO EMERGENCY TURN ***                                                                                            11 MAY 2026'
+H Straight on extended RWY centerline.
+#INT 'W2' 199 90  0.00  0.00
+#INT 'W3' 590 90  0.00  0.00
+#INT 'W4' 893 90  0.00  0.00
+#INT 'W5' 1181 90  0.00  0.00
+RWYU  90  2.50  45
+'18L'  0  3400   3460   3400   2825   0.01  0.01  0.01 9   0
+1      62  0
+18     512  0
+22     572  0
+26     659  0
+30     717  0
+32     774  0
+45     782  0
+55     849  0
+78     852  0
+'*** NO EMERGENCY TURN ***                                                                                            11 MAY 2026'
+H Straight on extended RWY centerline.
+#INT 'E2' 1286 90  0.01  0.01
+#INT 'E4' 818 90  0.01  0.01
+#INT 'E5' 580 90  0.01  0.01
+#INT 'E8' 853 90  0.01  0.01
+RWYU  90  2.50  45
+'24'  0  3435   3495   3435   3439   0.01  0.01  0.01 7   2
+3      123  0
+8      258  0
+12     352  0
+18     375  0
+37     401  0
+47     497  0
+169    3674  0
+'*** NO EMERGENCY TURN ***                                                                                            11 MAY 2026'
+H Straight on extended RWY centerline. NTM A0894/26
+#INT 'S4' 824 90  0.01  0.01
+#INT 'S5' 230 90  0.01  0.01
+#INT 'S3' 1454 90  0.01  0.01
+#INT 'S8' 169 90  0.01  0.01
+#INT 'S6' 190 90  0.01  0.01
+RWYU  90  2.50  45
+'27'  0  3453   3513   3453   3453   0.00  0.00  0.00 2   2
+11     135  0
+223    3266  0
+'*** NO EMERGENCY TURN ***                                                                                            11 MAY 2026'
+H Straight on extended RWY centerline.
+RWYU  90  2.50  45
+'36C'  0  3297   3357   3297   2850   0.00  0.00  0.00 7   0
+11     290  0
+28     623  0
+62     991  0
+72     1054  0
+352    8535  0
+429    8573  0
+452    11236  0
+'*** NO EMERGENCY TURN ***                                                                                            11 MAY 2026'
+H Straight on extended RWY centerline.
+#INT 'W8' 602 90  0.00  0.00
+#INT 'W12' 247 90  0.00  0.00
+#INT 'W7' 1166 90  0.00  0.00
+#INT 'W9' 247 90  0.00  0.00
+RWYU  90  2.50  60
+'36L'  0  3800   3860   3800   3800  -0.01 -0.01 -0.01 7   0
+1      63  0
+17     426  0
+23     525  0
+33     614  0
+52     825  0
+72     879  0
+460    8025  0
+'*** NO EMERGENCY TURN ***                                                                                            11 MAY 2026'
+H Straight on extended RWY centerline.
+#INT 'V2' 1052 90 -0.01 -0.01
+#INT 'V3' 553 90 -0.01 -0.01
+#INT 'V1' 1652 90 -0.01 -0.01
+
+
+
+
+
+
+
+AIRPORT2
+EPWA  CHOPIN              WARSAW,POL          FMLOLO      362 WAW
+RWYU  90  2.50  60
+'15'  0  3690   3690   3690   3690  -0.02 -0.02 -0.02 1   2
+69     1473  0
+'*** NO EMERGENCY TURN ***                                                                                             11 MAY 2026'
+H Straight on extended RWY centerline.
+#INT 'D2' 497 90 -0.02 -0.02
+#INT 'O1' 1060 90 -0.02 -0.02
+#INT 'S2' 828 90 -0.02 -0.02
+#INT 'D3' 557 90 -0.02 -0.02
+RWYU  90  2.50  50
+'29'  0  2800   2800   2800   2299   0.16  0.16  0.16 3   2
+26     482  0
+32     602  0
+49     1186  0
+'*** NO EMERGENCY TURN ***                                                                                             11 MAY 2026'
+H Straight on extended RWY centerline.
+#INT 'R' 499 90  0.16  0.16
+#INT 'A4' 882 90  0.16  0.16
+#INT 'E3' 94 90  0.16  0.16
+RWYU  90  2.50  60
+'33'  0  3690   3690   3690   3029   0.02  0.02  0.02 10  2
+7      152  0
+11     251  0
+23     252  0
+41     650  0
+50     732  0
+65     896  0
+169    1387  0
+146    1432  0
+223    5176  0
+245    12114  0
+'*** NO EMERGENCY TURN ***                                                                                            11 MAY 2026'
+H Straight on extended RWY centerline. NTM A1137/26, NTM
+H A1138/26
+#INT 'H2' 680 90  0.02  0.02
+#INT 'A8' 29 90  0.02  0.02
+
+
+
+
+
+
+
+AIRPORT2
+RPMD  FRANCISCO BANGOY I  DAVAO,PHL           FMLOLO       93 DVO
+RWYU 180  2.50  45
+'05'  0  2999   3059   2999   2999   0.02  0.02  0.02 1   0
+26     497  0
+'*** SEE SPECIAL PROCEDURE FOR THIS RUNWAY ***                    At D0.4 DAO LEFT turn to 010. Intercept OUBD R-020 DAO. At'
+RWYU 180  2.50  45
+'23'  0  2999   3059   2999   2999  -0.02 -0.02 -0.02 4   0
+38     441  0
+207    3602  0
+208    3668  0
+252    3707  0
+'*** SEE SPECIAL PROCEDURE FOR THIS RUNWAY ***                    At D4.0 DAO LEFT turn to 165.'
+
+
+
+
+
+
+
+AIRPORT2
+UNAA  ABAKAN              ABAKAN,RUS          FMLOLO      832 ABA
+RWYU 180  2.50  45
+'02'  0  3250   3250   3250   2756  -0.07 -0.07 -0.07 12  0
+9      208  0
+32     220  0
+47     307  0
+54     681  0
+378    5567  0
+516    8249  0
+532    8277  0
+628    33286  0
+667    33316  0
+707    33376  0
+743    33518  0
+958    33615  0
+'*** SEE SPECIAL PROCEDURE FOR THIS RUNWAY ***                                                                        12 MAY 2026'
+H At D1.5 ABK LEFT turn to 201.
+RWYU  90  2.50  45
+'20'  0  3250   3250   3250   3006   0.07  0.07  0.07 12  0
+11     118  0
+17     120  0
+33     146  0
+39     151  0
+44     344  0
+46     773  0
+318    22619  0
+338    23535  0
+669    24394  0
+699    24657  0
+911    25105  0
+962    25486  0
+'*** NO EMERGENCY TURN ***                                                                                            12 MAY 2026'
+H Straight on extended RWY centerline.
+#INT 'TWY B' 377 90  0.07  0.07
+
+
+
+
+
+AIRPORT2
+LTFE  BODRUM INTL         MILAS,TUR           FMLOLO       21 BJV
+RWYU  90  2.50  45
+'10L'  0  3000   3000   3000   3000   0.11  0.11  0.11 12  0
+3      8  0
+11     58  0
+24     285  0
+33     358  0
+43     359  0
+56     465  0
+67     488  0
+73     588  0
+185    744  0
+950    12893  0
+1158   13373  0
+1180   13702  0
+'*** SEE SPECIAL PROCEDURE FOR THIS RUNWAY ***                                                                        19 MAY 2026'
+H At D2.5 BDR RIGHT turn to 150. At D4.5 BDR LEFT turn DCT to
+H BDR (MAX 183 KTAS for all turns). Intercept OUBD R-265
+H BDR.
+#INT 'D' 950 90  0.11  0.11
+#INT 'C' 1510 90  0.11  0.11
+RWYU 180  2.50  45
+'10R'  0  2940   2940   2940   2940   0.08  0.08  0.08 12  0
+5      11  0
+45     330  0
+55     465  0
+63     503  0
+73     506  0
+84     575  0
+94     620  0
+154    2863  0
+959    13125  0
+1069   13146  0
+1158   13520  0
+1187   13874  0
+'*** SEE SPECIAL PROCEDURE FOR THIS RUNWAY ***                                                                        19 MAY 2026'
+H At D2.5 BDR RIGHT turn to 150. At D4.5 BDR LEFT turn DCT to
+H BDR (MAX 182 KTAS for all turns). Intercept OUBD R-265
+H BDR.
+#INT 'D' 740 90  0.08  0.08
+RWYU  90  2.50  45
+'28L'  0  2940   2940   2940   2500  -0.08 -0.08 -0.08 10  0
+2      3  0
+167    2361  0
+170    2623  0
+190    2680  0
+230    2864  0
+238    3019  0
+267    11825  0
+383    11963  0
+412    12006  0
+609    12205  0
+'*** SEE SPECIAL PROCEDURE FOR THIS RUNWAY ***                                                                        19 MAY 2026'
+H At D1.0 BDR LEFT turn to 235. Intercept OUBD R-250 BDR.
+RWYU  90  2.50  45
+'28R'  0  3000   3000   3000   3000  -0.11 -0.11 -0.11 10  0
+1      8  0
+11     266  0
+118    2568  0
+154    2582  0
+170    2623  0
+349    12061  0
+438    12144  0
+497    12165  0
+543    12305  0
+609    12326  0
+'*** SEE SPECIAL PROCEDURE FOR THIS RUNWAY ***                                                                        19 MAY 2026'
+H At D1.0 BDR LEFT turn to 235. Intercept OUBD R-250 BDR.
+#INT 'C' 1320 90 -0.11 -0.11
+#INT 'B' 800 90 -0.11 -0.11
+
+
+AIRPORT2
+RKSI  INCHEON INTL        SEOUL/INCHEON,KOR   FMLOLO       23 ICN
+RWYU  90  2.50  60
+'15L'  0  3750   4050   3870   3750   0.00  0.00  0.00 9   2
+7      300  0
+289    32424  0
+315    33110  0
+335    36181  0
+361    36297  0
+436    36529  0
+440    36599  0
+449    36628  0
+472    36647  0
+'*** NO EMERGENCY TURN ***                                                                                            04 AUG 2025'
+H Straight on extended RWY centerline.
+#INT 'K' 750 90  0.00  0.00
+#INT 'D4-C8' 1200 90  0.00  0.00
+RWYU  90  2.50  60
+'15R'  0  3750   4050   3870   3750   0.00  0.00  0.00 7   2
+8      300  0
+10     541  0
+279    33260  0
+312    35308  0
+331    36562  0
+440    36599  0
+472    36647  0
+'*** NO EMERGENCY TURN ***                                                                                            04 AUG 2025'
+H Straight on extended RWY centerline.
+#INT 'K' 750 90  0.00  0.00
+#INT 'B4' 1500 90  0.00  0.00
+#INT 'B5' 1200 90  0.00  0.00
+#INT 'B6' 190 90  0.00  0.00
+#INT 'C10' 1290 90  0.00  0.00
+RWYU  90  2.50  60
+'16L'  0  4000   4300   4120   4000   0.00  0.00  0.00 5   2
+8      301  0
+10     543  0
+18     659  0
+377    20670  0
+548    21725  0
+'*** NO EMERGENCY TURN ***                                                                                            04 AUG 2025'
+H Straight on extended RWY centerline.
+#INT 'V' 686 90  0.00  0.00
+#INT 'U' 991 90  0.00  0.00
+#INT 'N5' 1450 90  0.00  0.00
+#INT 'N4' 1950 90  0.00  0.00
+#INT 'W' 2201 90  0.00  0.00
+#INT 'N6' 190 90  0.00  0.00
+#INT 'P9' 1596 90  0.00  0.00
+RWYU  90  2.50  60
+'16R'  0  3750   4050   3870   3750   0.00  0.00  0.00 5   2
+7      300  0
+8      485  0
+33     1081  0
+377    20670  0
+548    21950  0
+'*** NO EMERGENCY TURN ***                                                                                            04 AUG 2025'
+H Straight on extended RWY centerline.
+#INT 'P12' 195 90  0.00  0.00
+#INT 'V' 436 90  0.00  0.00
+#INT 'U' 741 90  0.00  0.00
+#INT 'P11' 1250 90  0.00  0.00
+#INT 'P10' 1550 90  0.00  0.00
+#INT 'P8' 1850 90  0.00  0.00
+#INT 'P7' 2150 90  0.00  0.00
+#INT 'W' 1875 90  0.00  0.00
+RWYU  90  2.50  60
+'33L'  0  3750   4050   3870   3750   0.00  0.00  0.00 6   2
+7      300  0
+8      479  0
+10     539  0
+11     569  0
+366    6774  0
+407    7535  0
+'*** SEE SPECIAL PROCEDURE FOR THIS RUNWAY ***                                                                        '
+H At D5.0 NCN (D7.6 INLL) LEFT turn to 242.
+#INT 'J' 750 90  0.00  0.00
+#INT 'B2' 1200 90  0.00  0.00
+#INT 'B3' 1500 90  0.00  0.00
+#INT 'B1' 190 90  0.00  0.00
+#INT 'C9' 1230 90  0.00  0.00
+RWYU  90  2.50  60
+'33R'  0  3750   4050   3870   3750   0.00  0.00  0.00 3   2
+7      300  0
+75     1496  0
+366    6774  0
+'*** SEE SPECIAL PROCEDURE FOR THIS RUNWAY ***                                                                        '
+H At D5.0 NCN (D7.6 INRR) LEFT turn to 242.
+#INT 'J' 750 90  0.00  0.00
+#INT 'D1-C1' 1200 90  0.00  0.00
+RWYU  90  2.50  60
+'34L'  0  3750   4050   3870   3750   0.00  0.00  0.00 2   2
+7      300  0
+252    9488  0
+'*** SEE SPECIAL PROCEDURE FOR THIS RUNWAY ***                                                                       '
+H At D4.6 WNG (R-277 NCN) LEFT turn to 242.
+#INT 'P1' 195 90  0.00  0.00
+#INT 'T' 741 90  0.00  0.00
+#INT 'P2' 1250 90  0.00  0.00
+#INT 'P4' 1550 90  0.00  0.00
+#INT 'P5' 1850 90  0.00  0.00
+#INT 'P6' 2150 90  0.00  0.00
+#INT 'W' 1875 90  0.00  0.00
+RWYU  90  2.50  60
+'34R'  0  4000   4300   4120   4000   0.00  0.00  0.00 3   2
+8      301  0
+13     329  0
+255    9713  0
+'*** SEE SPECIAL PROCEDURE FOR THIS RUNWAY ***                                                                        '
+H At D4.6 WNG (R-281 NCN) LEFT turn to 242.
+#INT 'T' 741 90  0.00  0.00
+#INT 'N2' 1450 90  0.00  0.00
+#INT 'N3-W' 1951 90  0.00  0.00
+#INT 'N1' 190 90  0.00  0.00
+#INT 'P3' 1214 90  0.00  0.00
+
+AIRPORT2
+EBLG  LIEGE               LIEGE,BEL           FMLOLO      651 LGG
+RWYU 180  2.50  45
+'04R'  0  3690   3690   3690   3453  -0.45 -0.45 -0.45 4   0
+10     173  0
+15     251  0
+37     260  0
+43     291  0
+'*** NO EMERGENCY TURN ***                                                                                            28 FEB 2026'
+H Straight on extended RWY centerline.
+#INT 'C0' 387 90 -0.45 -0.45
+#INT 'C2' 1137 90 -0.45 -0.45
+#INT 'S2' 1212 90 -0.45 -0.45
+#INT 'C1' 1117 90 -0.45 -0.45
+#INT 'S3' 2092 90 -0.45 -0.45
+RWYU  90  2.50  45
+'22L'  0  3690   3690   3690   3287   0.45  0.45  0.45 11  0
+15     206  0
+19     213  0
+20     228  0
+22     299  0
+26     424  0
+332    19842  0
+377    20099  0
+378    20387  0
+380    21672  0
+392    22118  0
+394    22454  0
+'*** NO EMERGENCY TURN ***                                                                                            28 FEB 2026'
+H Straight on extended RWY centerline.
+#INT 'C4-S4' 1140 90  0.45  0.45
+#INT 'C3-S3' 1890 90  0.45  0.45
+#INT 'S5' 403 90  0.45  0.45

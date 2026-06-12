@@ -1,0 +1,8 @@
+code = "738"
+display_name = "738"
+template = "738.inp"
+default_temperature_range = "65:50:5,46,42:32:2,28,25:-5:5"
+default_wind_range = "-10,0,10,20"
+default_qnh = "1013.25"
+supports_thrust_options = false
+

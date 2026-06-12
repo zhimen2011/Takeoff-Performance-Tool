@@ -1,0 +1,36 @@
+# Python bytecode and test caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Build outputs
+build/
+dist/
+*.egg-info/
+
+# Local runtime logs
+*.log
+
+# Local runtime data and machine-specific config
+output/
+config/app.local.toml
+
+# Local AI assistant files and launch scripts
+.claude/
+CLAUDE.md
+AGENTS.md
+examples/
+启动DeepSeek.bat
+启动Opus4.7.bat
+
+# Runtime data: keep only the required STAS runway files
+runtime/*
+!runtime/stas/
+runtime/stas/*
+!runtime/stas/APTRWY_MASTER.RWY
+!runtime/stas/APTRWY.RWY

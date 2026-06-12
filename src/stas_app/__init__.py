@@ -1,0 +1,2 @@
+"""STAS application package."""
+

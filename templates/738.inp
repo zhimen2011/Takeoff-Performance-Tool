@@ -1,0 +1,39 @@
+ACMDBI d03285; ACTYPE 737-800; ENGTYP CFM56-7B26; CERTIF FAA-SCAP
+REVNBR S032; BRAKES CAT_N; MMID BTM
+OPTIONS
+POPT
+   0         0         9.E20     9.E20      5
+   9.E20     0         0         9.E20      9.E20
+   1         30        45        {runway_condition}          {contamination_depth}
+   9.E20     9.E20     0         400        0
+   15        9.E20     9.E20     79015      {derated}
+   5         0         0         9.E20      0
+   9.E20     9.E20     9.E20     9.E20      9.E20
+   9.E20     9.E20     9.E20     9.E20      9.E20
+   9.E20     9.E20     9.E20     9.E20      9.E20  /
+CONF
+   1         9.E20     5         {bleed_status}          {anti_icing}
+   1         0         1         0          9.E20
+   0         0         9.E20     9.E20      0
+   225       9.E20     9.E20     9.E20      0
+   9.E20     9.E20     9.E20     0          0
+   9.E20     9.E20     9.E20     9.E20      9.E20
+   9.E20     9.E20     9.E20     9.E20      9.E20  /
+H------------------------------------------------------
+WTUNIT KG
+TMPUNT C
+ALTUNT F
+DISTU M
+DEPTHU MM
+DESCRIBE ${qnh_ref_description}$
+QNHREF = {qnh_ref}
+UNIT(6) 0
+LINES PER PAGE 58
+AIRPORT FILE {airport_file}
+SELECT RUNWAY {airport_runway}
+TEMPS {temperature_range}
+WINDS {wind_range}
+MMLIST OFF
+INPUTS NOECHO
+OUTPUT OPTION WIND1
+CALC

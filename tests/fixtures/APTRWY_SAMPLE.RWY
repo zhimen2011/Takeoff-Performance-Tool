@@ -1,0 +1,22 @@
+# Sample file for runway parser tests.
+H HEADER ROW SHOULD BE IGNORED
+AIRPORT2
+ZBAA  CAPITAL             BEIJING,CHN         FMLOLO      116 PEK
+RWYU  90  2.50  45
+'18L'  0  3200   3260   3200   3000   0.00  0.00  0.00 2  0
+10     200  0
+20     300  0
+'*** NO EMERGENCY TURN ***'
+H Straight on extended RWY centerline.
+#INT 'A1' 100 90 0.00 0.00
+RWYS  90  2.50  45
+'36R'  0  3200   3260   3200   3000   0.00  0.00  0.00 0  0
+
+AIRPORT1
+'ZSPD' 'PUDONG' 'SHANGHAI,CHN'
+RWYV  90  2.50  45
+'17L'  0  3400   3460   3400   3100   0.00  0.00  0.00 1  0
+30     400  0
+'SPECIAL ENG OUT PROCEDURE'
+123 456 789
+
